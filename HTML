@@ -1,0 +1,171 @@
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title">Methow Van Company Survey</h1>
+      <p1 id="description">Thanks for your feedback!</p1>
+    </header>
+    
+    <br><br>
+    
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-group" for="name">Name</label>
+          <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+          />
+      </div>
+      
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+          <input
+           type="email"
+           name="email"
+           id="email"
+           class="form-control"
+           placeholder="Enter your email"
+           required
+           />
+      </div>
+      
+      <div class="form-group">
+         <label id="age-label" for="age">Age</label>
+          <input
+           type="number"
+           name="age"
+           id="number"
+           min="1"
+           max="100"
+           class="form-control"
+           placeholder="Age"
+           />
+      </div>        
+      
+      <div class="form-group">
+        <p>How happy are you with your camper van build?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+           <option disabled selected value> Select level of satisfaction
+           <option value="dissatisfied">Super duper not very happy
+           <option value="meh">It's ok but I wouldn't recommend it to a friend
+           <option value="good">Like your work and functions as expected
+           <option value="excellent">Loved the camper van, highly recommend!
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <p>Would you recommend Methow Van Company to a friend?</p>
+         <label>
+           <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+          />Most definitely!</label>
+           
+         <label>
+           <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+          checked
+          />Maybe</label>
+    
+          <label>
+           <input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+          checked
+          />Not sure</label>
+      </div>
+      
+      <div class="form-group">
+        <p>What are some of your favorite features on the van? <span class="clue"> (Check all that apply)              </span></p>
+        <label>
+          <input
+           name="prefer"
+           value="Platform-bed"
+           type="checkbox"
+           class="input-checked"
+           />Platform Bed
+        </label>
+          <br>
+        <label>
+          <input
+           name="prefer"
+           value="Roof-vent-fan"
+           type="checkbox"
+           class="input-checked"
+           />Roof Vent Fan
+        </label>
+          <br>
+        <label>
+          <input
+           name="prefer"
+           value="Outdoor-shower"
+           type="checkbox"
+           class="input-checked"
+           />Outdoor Shower
+        </label>
+           <br>
+        <label>
+          <input
+           name="prefer"
+           value="Heater"
+           type="checkbox"
+           class="input-checked"
+           />Heater
+        </label>
+           <br>
+        <label>
+          <input
+           name="prefer"
+           value="Kitchenette"
+           type="checkbox"
+           class="input-checked"
+           />Kitchenette
+        </label>
+           <br>
+        <label>
+          <input
+           name="prefer"
+           value="Garage-storage-area"
+           type="checkbox"
+           class="input-checked"
+           />Garage storage area
+        </label>  
+          <br>
+        <label>
+          <input
+           name="prefer"
+           value="Refrigerator"
+           type="checkbox"
+           class="input-checked"
+           />Refrigerator
+        </label>
+        
+     <div class="form-group">
+       <p>Any comments or feedback?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comments"
+            placeholder="Enter comments here..."
+            ></textarea>
+       </div>
+            
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+         Submit
+        </button>
+        </div>
+    
+  <container>
+</body>
